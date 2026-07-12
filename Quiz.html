@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+
+    <!-- Page title -->
+    <title>HTTP Quiz</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Main title -->
+    <h1>HTTP Self-Assessment Quiz</h1>
+
+    <!-- Home link -->
+    <a href="index.html">Home</a>
+
+    <!-- Small intro -->
+    <p>
+        Test your understanding of HTTP by answering the following questions.
+    </p>
+
+    <!-- Quiz form -->
+    <form id="quizForm">
+
+        <!-- Fill in the blank -->
+        <h2>Question 1</h2>
+
+        <label for="q1">
+            What does HTTP stand for?
+        </label>
+
+        <br><br>
+
+        <input type="text" id="q1" name="q1">
+
+        <hr>
+
+        <!-- Multiple choice -->
+        <h2>Question 2</h2>
+
+        <p>HTTP is mainly used to communicate between:</p>
+
+        <input type="radio" id="q2a" name="q2" value="A">
+        <label for="q2a">Client and Server</label>
+
+        <br>
+
+        <input type="radio" id="q2b" name="q2" value="B">
+        <label for="q2b">Keyboard and Monitor</label>
+
+        <br>
+
+        <input type="radio" id="q2c" name="q2" value="C">
+        <label for="q2c">CPU and RAM</label>
+
+        <hr>
+
+        <!-- Multiple choice -->
+        <h2>Question 3</h2>
+
+        <p>Which version is the newest HTTP standard?</p>
+
+        <input type="radio" id="q3a" name="q3" value="A">
+        <label for="q3a">HTTP/1.0</label>
+
+        <br>
+
+        <input type="radio" id="q3b" name="q3" value="B">
+        <label for="q3b">HTTP/2</label>
+
+        <br>
+
+        <input type="radio" id="q3c" name="q3" value="C">
+        <label for="q3c">HTTP/3</label>
+
+        <hr>
+
+        <!-- Multiple choice -->
+        <h2>Question 4</h2>
+
+        <p>What does a client do?</p>
+
+        <input type="radio" id="q4a" name="q4" value="A">
+        <label for="q4a">Sends requests</label>
+
+        <br>
+
+        <input type="radio" id="q4b" name="q4" value="B">
+        <label for="q4b">Stores webpages forever</label>
+
+        <br>
+
+        <input type="radio" id="q4c" name="q4" value="C">
+        <label for="q4c">Builds computer hardware</label>
+
+        <hr>
+
+        <!-- Multiple selection -->
+        <h2>Question 5</h2>
+
+        <p>Select all features of HTTP/2.</p>
+
+        <input type="checkbox" id="q5a" name="q5" value="A">
+        <label for="q5a">Multiplexing</label>
+
+        <br>
+
+        <input type="checkbox" id="q5b" name="q5" value="B">
+        <label for="q5b">Header Compression</label>
+
+        <br>
+
+        <input type="checkbox" id="q5c" name="q5" value="C">
+        <label for="q5c">Uses QUIC</label>
+
+        <hr>
+
+        <!-- Buttons -->
+        <button type="submit">Submit Quiz</button>
+
+        <button type="reset">Reset Quiz</button>
+
+    </form>
+
+    <hr>
+
+    <!-- Quiz results -->
+    <div id="results">
+
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>
