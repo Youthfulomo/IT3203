@@ -72,3 +72,34 @@ td {
     border: 1px solid black;
     padding: 8px;
 }
+/* Correct answer */
+.correct {
+    border: 1px solid green;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Incorrect answer */
+.incorrect {
+    border: 1px solid red;
+    background-color: lightpink;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Passing score */
+.pass {
+    color: darkgreen;
+    border: 2px solid green;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Failing score */
+.fail {
+    color: darkred;
+    border: 2px solid red;
+    padding: 10px;
+    margin-top: 20px;
+}
