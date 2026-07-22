@@ -125,3 +125,59 @@ nav a:hover {
     background-color: navy;
     border-radius: 5px;
 }
+/* Navigation menu */
+nav {
+    background-color: darkblue;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    padding: 10px 12px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Navigation mouse over */
+nav a:hover {
+    background-color: navy;
+    color: white;
+}
+
+/* Tablet screen */
+@media screen and (max-width: 800px) {
+
+    /* Smaller page spacing */
+    body {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    /* Allow menu links to wrap */
+    nav a {
+        padding: 8px;
+    }
+}
+
+/* Phone screen */
+@media screen and (max-width: 500px) {
+
+    /* Stack menu links */
+    nav a {
+        display: block;
+        border-bottom: 1px solid white;
+    }
+
+    /* Smaller main title */
+    h1 {
+        font-size: 26px;
+    }
+
+    /* Smaller headers */
+    h2 {
+        font-size: 20px;
+    }
+}
