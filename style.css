@@ -103,3 +103,25 @@ td {
     padding: 10px;
     margin-top: 20px;
 }
+/* Navigation menu */
+nav {
+    background-color: darkblue;
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Mouse over navigation link */
+nav a:hover {
+    background-color: navy;
+    border-radius: 5px;
+}
